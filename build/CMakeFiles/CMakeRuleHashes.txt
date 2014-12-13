@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+f07dcdfdbf5e7b2fa6087a59301451ac CMakeFiles/CopyConfig
+f07dcdfdbf5e7b2fa6087a59301451ac CMakeFiles/CopyRes
+f07dcdfdbf5e7b2fa6087a59301451ac CMakeFiles/CopyShaders

@@ -1,0 +1,34 @@
+material colored
+{
+    u_worldViewProjectionMatrix = WORLD_VIEW_PROJECTION_MATRIX
+    
+    renderState
+    {
+        cullFace = true
+        depthTest = true
+    }
+    
+    technique
+    {
+        pass 
+        {
+            vertexShader = res/shaders/colored.vert
+            fragmentShader = res/shaders/colored.frag
+        }
+    }
+}
+
+material Kokolaak : colored
+{
+    u_ambientColor = 1, 1, 1
+    u_inverseTransposeWorldViewMatrix = INVERSE_TRANSPOSE_WORLD_VIEW_MATRIX
+    
+    technique
+    {
+        pass 
+        {
+            defines = VERTEX_COLOR
+        }
+    }
+}
+

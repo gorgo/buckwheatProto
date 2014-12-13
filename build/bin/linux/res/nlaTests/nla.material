@@ -1,0 +1,35 @@
+material colored
+{
+    u_worldViewProjectionMatrix = WORLD_VIEW_PROJECTION_MATRIX
+    
+    renderState
+    {
+        cullFace = true
+        depthTest = true
+    }
+    
+    technique
+    {
+        pass 
+        {
+            vertexShader = res/shaders/colored.vert
+            fragmentShader = res/shaders/colored.frag
+        }
+    }
+}
+
+material Material : colored
+{
+    u_cameraPosition = CAMERA_WORLD_POSITION
+    u_inverseTransposeWorldViewMatrix = INVERSE_TRANSPOSE_WORLD_VIEW_MATRIX
+    u_specularExponent = 9.60784
+    
+    technique
+    {
+        pass 
+        {
+            defines = SPECULAR;VERTEX_COLOR
+        }
+    }
+}
+

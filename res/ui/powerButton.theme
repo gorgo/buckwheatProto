@@ -1,0 +1,60 @@
+theme powerButton
+{
+    texture = res/ui/powerButton.png
+    skin powerButtonSkin
+    {
+        border
+        {
+            top = 0
+            bottom = 0
+            left = 0
+            right = 0
+        }
+        region = 0, 0, 390, 260
+        color = #ffffffff
+    }
+    style <styleID>
+    {
+        margin
+        {
+            top = <int>
+            bottom = <int>
+            left = <int>
+            right = <int>
+        }
+        padding
+        {
+            top = <int>
+            bottom = <int>
+            left = <int>
+            right = <int>
+        }
+        stateNormal
+        {
+            skin = <skinID>
+            imageList = <imageID>
+            cursor = <cursorID>
+            font = <Path to font>
+            fontSize = <int>
+            textColor = <#ffffffff>
+            textAlignment = <Control::Alignmentconstant>
+            rightToLeft = <bool>
+            opacity = <float>
+        }
+        stateFocus
+        {
+            skin = <skinID>
+            ...
+        }
+        stateActive
+        {
+            skin = <skinID>
+            ...
+        }
+        stateDisabled
+        {
+            skin = <skinID>
+            ...
+        }
+    }
+}

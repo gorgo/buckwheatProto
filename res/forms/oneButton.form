@@ -1,0 +1,23 @@
+form oneButton
+{
+    layout = LAYOUT_ABSOLUTE
+    size = 600, 600
+    batchingEnabled = false
+    theme = res/ui/default.theme
+
+	label title
+	{
+		position = 185, 10
+		text = Title Label
+        fontSize = 32
+	}
+
+	button testButton
+	{
+		position = 20, 110
+		size = 390, 260
+
+		text = This is a button
+	}
+
+}

@@ -1,0 +1,4 @@
+/home/gorgo/projects/animationTests/build/CMakeFiles/CopyConfig.dir
+/home/gorgo/projects/animationTests/build/CMakeFiles/CopyRes.dir
+/home/gorgo/projects/animationTests/build/CMakeFiles/CopyShaders.dir
+/home/gorgo/projects/animationTests/build/CMakeFiles/animationTests.dir

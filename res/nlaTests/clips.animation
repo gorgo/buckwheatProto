@@ -1,0 +1,21 @@
+animation animations
+{
+    frameCount = 64
+	clip fly
+    {
+        begin = 1
+        end = 20
+        repeatCount = INDEFINITE
+        #loopBlendTime = 10
+        unaffectedNodes = tail
+
+    }
+    clip tailRoll
+    {
+        begin = 0
+        end = 64
+        repeatCount = INDEFINITE
+        affectedNodes = tail
+
+    }
+}

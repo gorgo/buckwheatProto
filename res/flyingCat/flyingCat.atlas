@@ -1,0 +1,5 @@
+textures: flyingCat.png
+flyingCat/sprites/body.png	1	1	694	656	5	0	705	664	
+flyingCat/sprites/tail.png	698	1	245	349	4	2	351	255	r
+flyingCat/sprites/wingL.png	905	353	117	267	12	12	147	284	
+flyingCat/sprites/wingR.png	799	353	103	246	9	7	117	254	
